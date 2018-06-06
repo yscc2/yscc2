@@ -5,23 +5,25 @@
 body {
   text-align: center;
   font-size: 20px;
+  font-family: 'Nanum Pen Script', serif;
+}
+
+h5 {
   font-family: 'Iropke Batang', serif;
 }
 
 .container {
   margin-top: 5%;
   margin-bottom: 5%;
-  padding-right: 20px;
-  padding-left: 20px;
   max-width: 640px;
 }
 
-.page {
+.page:not(.cover) {
   padding-top: 15%;
   padding-bottom: 15%;
 }
 
-.page:not(:last-child) {
+.page:not(:last-child):not(.cover) {
   border-bottom: 1px dotted lightgray;
 }
 
@@ -40,57 +42,4 @@ body {
   display: block;
   font-size: 1.3rem;
   font-family: 'Nanum Gothic', serif;
-}
-
-#bg1 {
-  position: fixed;
-  top: 0;
-  z-index: -4;
-  width: 100vw;
-  height: 100vw;
-  background-image: url('../images/bg1.png');
-  background-position: 5% 5%;
-  background-size: 20%;
-  background-repeat: no-repeat;
-  opacity: .75;
-}
-
-#bg2 {
-  position: fixed;
-  top: 0;
-  z-index: -1;
-  width: 100vw;
-  height: 100vw;
-  background-image: url('../images/bg2.png');
-  background-position: 7% bottom;
-  background-size: 5%;
-  background-repeat: no-repeat;
-  opacity: .75;
-}
-
-#bg3 {
-  position: fixed;
-  top: 0;
-  z-index: -2;
-  width: 100vw;
-  height: 100vw;
-  background-image: url('../images/bg3.png');
-  background-position: 97% 40%;
-  background-size: 10%;
-  background-repeat: no-repeat;
-  opacity: .75;
-}
-
-#bg4 {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: -5;
-  width: 100vw;
-  height: 100vw;
-  background-image: url('../images/bg4.png');
-  background-position: bottom right;
-  background-size: 20%;
-  background-repeat: no-repeat;
-  opacity: .75;
 }
