@@ -45,13 +45,23 @@ body {
   font-family: 'Nanum Pen Script', serif;
 }
 
-.address {
+.contact {
   text-align: left;
 }
-.address span {
+.contact span {
   display: block;
   font-size: 1.3rem;
   font-family: 'Nanum Gothic', serif;
+}
+.contact .naverMapIcon {
+  margin-bottom: -3px;
+  margin-left: 5px;
+  width: 15px;
+}
+
+.contact .phone a {
+  color: black;
+  text-decoration: none;
 }
 
 .ending {
