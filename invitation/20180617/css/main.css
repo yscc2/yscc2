@@ -4,12 +4,12 @@
 
 body {
   text-align: center;
-  font-size: 20px;
-  font-family: 'Nanum Pen Script', serif;
+  font-size: 15px;
+  font-family: 'Iropke Batang', serif;
 }
 
-h5 {
-  font-family: 'Iropke Batang', serif;
+.header {
+  font-size: 20px;
 }
 
 .container {
@@ -35,6 +35,16 @@ h5 {
   text-align: left;
 }
 
+.invitation .signatureLine {
+  text-align: center;
+}
+
+.invitation .signature {
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: 'Nanum Pen Script', serif;
+}
+
 .address {
   text-align: left;
 }
@@ -42,4 +52,9 @@ h5 {
   display: block;
   font-size: 1.3rem;
   font-family: 'Nanum Gothic', serif;
+}
+
+.ending {
+  font-size: 20px;
+  font-family: 'Nanum Pen Script', serif;
 }
