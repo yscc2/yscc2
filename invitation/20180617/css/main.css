@@ -73,6 +73,10 @@ body {
   margin-bottom: 20px;
 }
 
+.waiting .message span {
+  display: block;
+}
+
 .ending {
   font-size: 20px;
   font-family: 'Nanum Pen Script', serif;
